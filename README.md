@@ -27,7 +27,7 @@ Code: let userPizza = new Pizza(); Expect: (Pizza.toEqual(Pizza{ [],}));
 Describe: Pizza.prototype.calculateSize 
 Test: It will add up total cost of a pizza based on what size the user chooses. 
 Code: pizza.calculateSize(); 
-Expect: (Pizza.pizzaPrice["large"].toEqual([totalCost + 10]));
+Expect: (Pizza.pizzaPrice["large"].toEqual([totalCost + 15]));
 
 Describe: Pizza.prototype.calculateToppings 
 Test: It will add $1 for each topping chosen in the toppings array. 
