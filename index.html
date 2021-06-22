@@ -11,42 +11,56 @@
 
 <body>
   <div class="container">
-    <div class="form">
-      <h3>Pizza Online Order</h3>
-      <img src="img/pizza.jpeg" class="img1" alt="Tears our your heart">
-      <form id="order-form" id="size">
-        <h5>Size:</h5>
-        <div class="radio">
-          <label>
-            <input type="radio" name="size" value="small" id="small">
-            Small $5
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="size" value="medium" id="medium">
-            Medium $10
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="size" value="large" id="large">
-            Large $15
-          </label>
-        </div>
-        <h5>Toppings:</h5>
-        <input type="checkbox" name="pizzaTopping" value="pepperoni"> Pepperoni $2
-        <input type="checkbox" name="pizzaTopping" value="sausage"> Sausage $2
-        <input type="checkbox" name="pizzaTopping" value="jalapenos"> Jalapenos $2
-        <div>
-          <button class="btn btn-danger" type="submit">Submit Order</button>
-        </div>
-      </form>
+    <div class="column1">
+      <div class="form">
+        <h1 class="title">Pizza Parlor!</h3>
+        <img src="img/pizza.jpeg" class="img1" alt="Tears our your heart">
+        <h3>Online Order Form</h3>
+        <form id="order-form" id="size">
+          <h5>Size:</h5>
+          <div class="radio">
+            <label>
+              <input type="radio" name="size" value="small" id="small">
+              Small $5
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="size" value="medium" id="medium">
+              Medium $10
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="size" value="large" id="large">
+              Large $15
+            </label>
+          </div>
+          <div class="column2">
+            <h5>Toppings:</h5>
+            <ol>
+              <input type="checkbox" name="pizzaTopping" value="pepperoni"> Pepperoni $2
+              <input type="checkbox" name="pizzaTopping" value="sausage"> Sausage $2
+              <input type="checkbox" name="pizzaTopping" value="jalapenos"> Jalapenos $2
+              <input type="checkbox" name="pizzaTopping" value="mushrooms"> Mushrooms $2
+              <input type="checkbox" name="pizzaTopping" value="cheese"> Cheese $2
+              <input type="checkbox" name="pizzaTopping" value="pineapple"> Pineapple $2
+              <input type="checkbox" name="pizzaTopping" value="canadianBacon"> Canadian Bacon $2
+              <input type="checkbox" name="pizzaTopping" value="olives"> Olives $2
+              <input type="checkbox" name="pizzaTopping" value="onions"> Onions $2
+              <input type="checkbox" name="pizzaTopping" value="bellPeppers"> Bell Peppers $2
+            </ol>
+            <button class="btn-outline-danger" type="submit">Submit Order</button>
+          </div>
+        </form>
+      </div>
       <div class="orderConfirm">
         <h5>Your Order:</h5>
-        <p>You ordered a <span id="sizeChoice"></span> pizza with the following toppings:
+        <p>You ordered a <span id="sizeChoice"></span> with the following toppings:
           <span id="toppingsChoice"></span>
-          <span id="costOutput"></span>
+        </p>
+        <p>
+          Your pizza costs: <span id="costOutput"></span>
         </p>
       </div>
     </div>

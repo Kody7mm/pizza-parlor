@@ -1,0 +1,28 @@
+.title {
+  text-align: center;
+}
+.column1 {
+  width: 675px;
+  border-style: solid;
+  border-width: thick;
+  border-color: tan;
+  padding-right: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  box-sizing: border-box;
+  color: rgb(74, 128, 128);
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.column2 {
+  width: 625px;
+  border-style: solid;
+  border-width: thick;
+  border-color: tan;
+  margin-top: 20px;
+  box-sizing: border-box;
+  padding-right: 20px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+}
