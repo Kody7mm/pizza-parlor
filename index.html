@@ -37,18 +37,20 @@
             </label>
           </div>
           <div class="column2">
-            <h5>Toppings:</h5>
+            <h5>Toppings: $2 Each </h5>
             <ol>
-              <input type="checkbox" name="pizzaTopping" value="pepperoni"> Pepperoni $2
-              <input type="checkbox" name="pizzaTopping" value="sausage"> Sausage $2
-              <input type="checkbox" name="pizzaTopping" value="jalapenos"> Jalapenos $2
-              <input type="checkbox" name="pizzaTopping" value="mushrooms"> Mushrooms $2
-              <input type="checkbox" name="pizzaTopping" value="cheese"> Cheese $2
-              <input type="checkbox" name="pizzaTopping" value="pineapple"> Pineapple $2
-              <input type="checkbox" name="pizzaTopping" value="canadianBacon"> Canadian Bacon $2
-              <input type="checkbox" name="pizzaTopping" value="olives"> Olives $2
-              <input type="checkbox" name="pizzaTopping" value="onions"> Onions $2
-              <input type="checkbox" name="pizzaTopping" value="bellPeppers"> Bell Peppers $2
+              <input type="checkbox" name="pizzaTopping" value="Pepperoni"> Pepperoni
+              <input type="checkbox" name="pizzaTopping" value="Sausage"> Sausage
+              <input type="checkbox" name="pizzaTopping" value="Jalapenos"> Jalapenos
+              <input type="checkbox" name="pizzaTopping" value="Onions"> Onions
+              <input type="checkbox" name="pizzaTopping" value="Olives"> Olives
+            </ol> 
+            <ol> 
+              <input type="checkbox" name="pizzaTopping" value="Cheese"> Cheese
+              <input type="checkbox" name="pizzaTopping" value="Mushrooms"> Mushrooms
+              <input type="checkbox" name="pizzaTopping" value="Bacon"> Bacon
+              <input type="checkbox" name="pizzaTopping" value="Peppers"> Peppers
+              <input type="checkbox" name="pizzaTopping" value="Onions"> Onions
             </ol>
             <button class="btn-outline-danger" type="submit">Submit Order</button>
           </div>
@@ -56,11 +58,11 @@
       </div>
       <div class="orderConfirm">
         <h5>Your Order:</h5>
-        <p>You ordered a <span id="sizeChoice"></span> with the following toppings:
-          <span id="toppingsChoice"></span>
+        <p>You ordered a <em><span id="sizeChoice"></span> pizza</em> with the following toppings:
+          <strong><span id="toppingsChoice"></span></strong>
         </p>
         <p>
-          Your pizza costs: <span id="costOutput"></span>
+          Your <strong>pizza</strong> costs: <em><strong><span id="costOutput"></span></strong></em>
         </p>
       </div>
     </div>
