@@ -21,7 +21,7 @@ This website was built to allow user to order a pizza online!
 
   * Clone the repository to a local directory using the command-line tool `git` ([how to install git](https://www.learnhowtoprogram.com/introduction-to-programming/getting-started-with-intro-to-programming/git-and-github)).  
     `$ cd ~/[directory]/[path]/[of]/[choice]/`  
-    `$ git clone https://github.com/MicahOlson/pizza-parlor.git`  
+    `$ git clone https://github.com/kody7mm/pizza-parlor.git`  
   
   * Navigate to the top level of the project directory.  
     `$ cd pizza-parlor/`   
